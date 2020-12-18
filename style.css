@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+.circle{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.blue{
+    color: rgb(10, 113, 230);
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+html{
+    font-family: circular std, sans-serif;
+    font-weight: 100;
+}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: #17191A;
+}
+h2{
+    font-size: 35px;
+    font-weight: 400;
+    color: #17191A;
+}
+h5{
+    font-size: 20px;
+    margin-top: 10px;
+}
+p{
+    font-size: 20px;
+    font-weight: 100;
+    opacity: 0.8;
+    margin-top: 10px;
+    color: rgb(77, 83, 83);
+}
+body{
+    width: 60%;
+    margin: auto;
+    background-image: url('images/BG.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background:transparent;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.contact, .nav_icons{
+    flex: 1;
+}
+.nav_icons{
+    text-align: right;
+}
+.nav_icons a, .contact a, .contact img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav_icons a{
+    margin-left: 40px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact img{
+    margin-right: 10px;
+}
+.landing{
+    height: 100vh;
+    position: relative;
+}
+.landingWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+ul{
+    list-style: none;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.landingL{
+    margin-top: 4em;
+}
+.scroll{
+    position: absolute;
+    bottom: 180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.skills{
+    text-align: center;
+    margin-bottom: 20em;
+}
+.skills p{
+    margin-bottom: 30px;
+}
+.skills img{
+    width: 40px;
+    margin: 0 15px;
+}
+.work{
+    width: 100%;
+    margin-bottom: 20em;
+    position: relative;
+}
+.work > .workText{
+    position: absolute;
+    top: 85px;
+}
+.work > .workText > .underline{
+    display: block;
+    background-color: #027BFF;
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+}
+.work > .workImg{
+    width: 85%;
+    float: right;
+    box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+}
+.work ul{
+    position: absolute;
+    bottom: 0;
+    right: 86%;
+}
+.work ul li{
+    margin-top: 20px;
+}
+.work2{
+    width: 100%;
+    margin-bottom: 10em;
+    position: relative;
+}
+.work2 > .workText{
+    position: absolute;
+    top: 85px;
+    right: 0;
+    text-align: right;
+}
+.work2 > .workText > .underline{
+    display: block;
+    background-color:#027BFF;
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+    float: right;
+}
+.work2 > .workImg{
+    width: 85%;
+    float: left;
+    box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+}
+.work2 ul{
+    position: absolute;
+    bottom: 0;
+    left: 86%;
+}
+.work2 ul li{
+    margin-top: 20px;
+}
+.work a, .work2 a{
+    text-decoration: none;
+    color: #17191A;
+}
+.footer{
+    background-image: url('images/Dribbble_Blue_Large.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 320px;
+    padding-bottom: 7em;
+    text-align: center;
+}
+.scroll2{
+    margin-bottom: 10em;
+}
+.footer a{
+    text-decoration: none;
+    color: #027BFF;
+}
+.underlineSmall{
+    display: block;
+    height: 3px;
+    width: 41px;
+    margin: 5px auto 0 auto;
+    background-color: #027BFF;
+}
